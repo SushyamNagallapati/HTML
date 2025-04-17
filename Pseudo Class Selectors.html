@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <article>
+        <h1>Heading 1</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <a href="https://someweirdlink.com">Link</a>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+    </article>
+</body>
+</html
+
+
+<!-- 1. To make changes in first line (first-child is used). To make changes in last line (last-child is used)
+article :first-child{
+    font-size: 140%;
+    font-style: italic;
+} -->
+
+<!-- 2. Applies only for firt two lines
+/* article :first-of-type {
+    font-size: 140%;
+    font-style: italic;
+} */ -->
+
+<!-- 3. If we want to apply only for first para
+article p:first-of-type {
+    font-size: 140%;
+    font-style: italic;
+} -->
+
+<!-- 4. If we want to apply only for the last para
+article p:last-of-type {
+    font-weight: bold;
+} -->
+
+<!-- 5. If we want to style only the odd items in the list, we can also use even, multiples(eg. 1n, 2n, 3n, ....)
+ul li:nth-child(odd) {
+    color: red;
+} -->
+
+<!-- 6. To make a link bold
+article a{
+    font-weight: bold;
+} -->
+
+<!-- 7. To add color for vsited and unvisited hyperlink
+a :visited,
+a:link {
+    color: green;
+} -->
+
+<!-- 8. To add color when we hover over the link and when we press tab to select the link
+a:hover,
+a:focus{
+    color: deeppink;
+} --> -->
