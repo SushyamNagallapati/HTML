@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
+
+
+1. In this rgba is used for transparencey, so that we can see the background text
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(207, 225, 25); or rgba(207, 225, 25, 0.5);
+}
+
+2. The only drawback with HSl is there is no alpha channel, so we cannot use it for transparency.
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #cfe319;
+}
+
+
+3. In this hsla is used for transparencey, so that we can see the background text
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: hsl(60, 100%, 50%); or hsla(60, 100%, 50%, 0.5);
+}
