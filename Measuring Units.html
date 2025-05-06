@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="box">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, sit excepturi itaque natus nesciunt similique sunt quidem quaerat nobis, omnis aut est. Doloribus, iusto debitis.</p>
+    </div>
+</body>
+</html>
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    /* margin: 10px; */
+}
+
+/* .box {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border-top: 3px solid red;
+} */
+
+/* .box { */
+    /* 50% of the width of the parent element (i.e. body element) */
+    /* width: 50%;
+    height: 100px;
+    background-color: gold;
+    border-top: 3px solid red; */
+    
+/* } */
+
+
+
+We can also width = 50vw; which means 50% of the width of the viewport. We get the same result as width = 50%.
+
+.box {
+    width: 50vw; 
+    height: 50vh;
+    background-color: gold;
+    border-top: 3px solid red;
+} 
+
+
+There is problem with "em" unit is If we don't have an explicit font-size set on the parent element, we have to trace up the inheritance hierarchy to figure out what  font size will be applied to this element. So this gets complicated. That's why we need to use "rem" unit.
+/* .box {
+    font-size: 20px;
+    width: 10em;
+    height: 100vh;
+    background-color: gold;
+    border-top: 3px solid red;
+} */
