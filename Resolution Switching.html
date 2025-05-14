@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <img src="Images/meal.jpg" alt="a meal" class="meal"
+    srcset="Images/meal.jpg 400w, Images/meal@2x.jpg 800w, Images/meal@3x.jpg 1200w"
+    
+    sizes="(max-width: 500px) 100vw, 
+           (max-width: 700px) 50vw, 
+           33vw">
+</body>
+</html>
+
+<!-- 1. We didn't use styles .css in this example.
+
+2. We have converted the srcset from 1x, 2x, 3x to 400w, 800w, 1200w.
+
+3. The sizes attribute is used to specify the size of the image in different devices (we have used for mobile, tablet and desktop). To get the actual values we can visit the website Responsive Image Breakpoints and use the tool to get the values. -->
