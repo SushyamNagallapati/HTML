@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 500px)" srcset="Images/meal-cropped.jpg" />
+        <source media="(min-width: 501px)" srcset="Images/meal.jpg" />
+        <img src="Images/meal.jpg" alt="a meal picture"/>
+    </picture>
+</body>
+</html>
+
+<!-- To show a zoomed-in or cropped image for certain screen sizes [like mobiles], we use art direction.
+
+1. We are saying if the max width of the screen is 500px, use croped image.
+2. If the screen is larger than 500px, use the original image.
+
+We can also set for high density screens like 1x, 2x, 3x ect. -->
