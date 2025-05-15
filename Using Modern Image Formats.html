@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- <img src="Images/meal.webp" alt=""> -->
+     <picture>
+        <source type="Image/webp" srcset="Images/meal.webp" />
+        <source type="Image/jpeg" srcset="Images/meal.jpg" />
+        <img src="Images/meal.jpg" alt="a meal" />
+     </picture>
+    
+</body>
+</html>
+
+
+<!-- We can convert jpg image to webP image by using online tool (cloudconvert)
+
+There are 2 ways to use webP image:
+1. Using the img element.
+
+2. Using the picture element.
+The picture element is used to provide multiple sources for the image. The browser will choose the best source based on the device's capabilities and the user's preferences. -->
