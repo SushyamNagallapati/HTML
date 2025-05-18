@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"><span class="pln"></span>
+</head>
+<body>
+    <form>
+        <!-- <input type="text" list="countries">
+        <datalist id="countries">
+            <option>India</option>
+            <option>Canada</option>
+            <option>France</option>
+        </datalist> -->
+
+        <!-- <input type="text" list="countries">
+        <datalist id="countries">
+            <option data-value="1">India</option>
+            <option>Canada</option>
+            <option>France</option> -->
+
+            <input type="text" list="countries" autocomplete="off">
+        <datalist id="countries">
+            <option data-value="1">India</option>
+            <option>Canada</option>
+            <option>France</option>
+        </datalist>
+    </form>
+</body>
+</html>
+
+<!-- 1. To display a suggestion list.
+
+2. When we want to select soomething from the list, we want to send a numeric value to the browser.
+
+3. When we set the autocomplete to off, this turns off the native autocomplete feature in the browser. So it doesn't clash with the autocomplete that we have implemented. -->
